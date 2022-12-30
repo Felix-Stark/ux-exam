@@ -1,0 +1,15 @@
+@use 'sass:color';
+
+@mixin flexContainer($dir: column) {
+	display: flex;
+	flex-direction: $dir;
+}
+
+@mixin chart-size($height: 30em) {
+	margin: 0 auto;	
+	height: $height;
+	@include flexContainer(row);
+	justify-content: center;
+	align-items: center;
+}
+

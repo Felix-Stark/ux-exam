@@ -1,0 +1,10 @@
+@use './style/variables';
+body {
+	margin: 0 auto;
+	min-height: 100vh;
+}
+
+.App {
+	@include variables.flexContainer;
+
+}

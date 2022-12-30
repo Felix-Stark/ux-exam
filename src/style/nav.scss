@@ -1,0 +1,29 @@
+@use 'variables';
+
+.head-bar {
+	@include variables.flexContainer(row);
+	align-items: center;
+
+}
+
+.icon-container {
+	@include variables.flexContainer();
+	justify-content: center;
+	img {
+		height: 3em;
+	}
+}
+
+.nav {
+	margin: 0 auto;
+	height: 3em;
+	width: 80%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.nav__btn {
+	border: 4px solid rgba(0, 0, 0, 0.519);
+	border-radius: 20px;
+	padding: 1em .5em;
+}

@@ -1,0 +1,6 @@
+@use 'variables';
+@use 'sass:color';
+
+.pie-chart {
+	@include variables.chart-size(40em);
+}
